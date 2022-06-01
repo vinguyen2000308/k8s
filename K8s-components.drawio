@@ -1,1 +1,238 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T14:22:02.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.1.1" etag="J3kyJF9e20q05VMw3jh5" type="github"><diagram id="936scsLRzXTsTXt8zlu-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-01T15:25:30.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="aR1C_nkN2yUtmlrlRdNE" version="18.1.1" type="github">
+  <diagram id="936scsLRzXTsTXt8zlu-" name="Page-1">
+    <mxGraphModel dx="5126" dy="3009" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MLqByzA7hM5OESaeHnUo-1" value="&lt;h1 style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 1rem; line-height: 1.2; font-size: 2.25rem; max-width: 80%; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Kubernetes Components&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="-641" width="552" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-4" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="114" y="412" width="200" height="381" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-7" value="kubectl" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-4">
+          <mxGeometry x="53" y="68" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-8" value="Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-4">
+          <mxGeometry x="70" y="9" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-14" value="k-proxy" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-4">
+          <mxGeometry x="55" y="207" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-5" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="478" y="412" width="200" height="381" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-10" value="Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-5">
+          <mxGeometry x="70" y="16" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-12" value="kubectl" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-5">
+          <mxGeometry x="50" y="71" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-15" value="k-proxy" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-5">
+          <mxGeometry x="50" y="216" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-6" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="813" y="412" width="200" height="381" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-11" value="Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-6">
+          <mxGeometry x="70" y="16" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-13" value="kubectl" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-6">
+          <mxGeometry x="50" y="67" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-16" value="k-proxy" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.octagon2;align=center;verticalAlign=middle;dx=15;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-6">
+          <mxGeometry x="50" y="220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-17" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-916" y="45" width="783" height="536" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-29" value="kube-apiserver" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-17">
+          <mxGeometry x="637" y="221.5" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-30" value="etcd" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-17">
+          <mxGeometry x="238" y="330" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-31" value="kube-scheduler" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-17">
+          <mxGeometry x="526" y="379" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-32" value="kube-controller-manager" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-17">
+          <mxGeometry x="163" y="82" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-33" value="cloud-controller-manager" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-17">
+          <mxGeometry x="518" y="49" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-37" value="Control Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-17">
+          <mxGeometry x="256" y="479" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-40" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="530" as="sourcePoint" />
+            <mxPoint x="142" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-41" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;entryX=-0.013;entryY=0.547;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="672" as="sourcePoint" />
+            <mxPoint x="142" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.994;entryY=0.474;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="672" as="sourcePoint" />
+            <mxPoint x="-188" y="317" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-44" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.994;entryY=0.461;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="679" as="sourcePoint" />
+            <mxPoint x="218.99999999999955" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="405" y="374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-45" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="531" as="sourcePoint" />
+            <mxPoint x="528" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-46" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="679" as="sourcePoint" />
+            <mxPoint x="538" y="542.4219653179189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="748" y="683" as="sourcePoint" />
+            <mxPoint x="-113" y="270.99999999999955" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="748" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-48" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="748" y="531" as="sourcePoint" />
+            <mxPoint x="911" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-49" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MLqByzA7hM5OESaeHnUo-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="748" y="683" as="sourcePoint" />
+            <mxPoint x="911" y="704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-53" value="cloud provider api&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="224" y="104" width="150" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-54" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLqByzA7hM5OESaeHnUo-64" target="MLqByzA7hM5OESaeHnUo-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-93" y="188" as="sourcePoint" />
+            <mxPoint x="-43" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-58" value="kube-apiserver" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-269" y="276.5" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-59" value="kube-apiserver" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-259" y="286.5" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-56" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLqByzA7hM5OESaeHnUo-59" target="MLqByzA7hM5OESaeHnUo-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-438" y="363" as="sourcePoint" />
+            <mxPoint x="-388" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-55" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.995;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLqByzA7hM5OESaeHnUo-59" target="MLqByzA7hM5OESaeHnUo-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-438" y="363" as="sourcePoint" />
+            <mxPoint x="-388" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-57" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MLqByzA7hM5OESaeHnUo-59" target="MLqByzA7hM5OESaeHnUo-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-222.5" y="369.5" as="sourcePoint" />
+            <mxPoint x="-333.5" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-50" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="MLqByzA7hM5OESaeHnUo-59" target="MLqByzA7hM5OESaeHnUo-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-202" y="356" as="sourcePoint" />
+            <mxPoint x="-152" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-60" value="kube-controller-manager" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-743" y="137" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-61" value="kube-controller-manager" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-733" y="147" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-63" value="cloud-controller-manager" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-388" y="104" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-64" value="cloud-controller-manager" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-378" y="114" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-65" value="kube-scheduler" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="434" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-66" value="kube-scheduler" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="444" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-69" value="" style="swimlane;startSize=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-979" y="-84" width="2129" height="954" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-70" value="Kubernetes Cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-69">
+          <mxGeometry x="1065" y="36" width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-81" value="" style="swimlane;startSize=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1233" y="-33" width="480" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-83" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;Addons&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-81">
+          <mxGeometry x="200" y="25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-84" value="&lt;h1 style=&quot;font-size: 12px;&quot;&gt;Addons&amp;nbsp;&lt;/h1&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;- Sử dụng các Kubernets resources như DaemonSet, Deployment để triển khai các cluster features.&amp;nbsp; Cluster-level feaures&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;- Các tính năng như&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li&gt;DNS&lt;/li&gt;&lt;li&gt;Web UI&amp;nbsp;&lt;/li&gt;&lt;li&gt;Container Resource Monitoring&amp;nbsp;&lt;/li&gt;&lt;li&gt;Cluster-level logging&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=48;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-81">
+          <mxGeometry x="83" y="105" width="331" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-85" value="" style="swimlane;startSize=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1233" y="329" width="429" height="552" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-78" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 2rem; margin-bottom: 1rem; font-weight: 500; line-height: 1.2; font-size: 1.5rem; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; background-color: rgb(255, 255, 255);&quot; id=&quot;kubelet&quot;&gt;kubelet&lt;a style=&quot;box-sizing: border-box; color: rgb(51, 113, 227); text-decoration-line: none; background-color: transparent; visibility: initial;&quot; href=&quot;https://kubernetes.io/docs/concepts/overview/components/#kubelet&quot; aria-hidden=&quot;true&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;- an agent chạy trên mỗi node trong cluster. Nó đảm bảo các container đang chạy trong Prod&lt;/p&gt;&lt;p&gt;- Dựa trên cái ProdSpecs để đảm bảo là các container đang chạy một cách ổn định&amp;nbsp;&lt;/p&gt;&lt;p&gt;- Nó không quản lý các container mà không được tạo bởi kubernetes&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-85">
+          <mxGeometry x="14" y="23" width="387" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-79" value="&lt;h3 id=&quot;kubelet&quot; style=&quot;box-sizing: border-box; margin-top: 2rem; margin-bottom: 1rem; font-weight: 500; line-height: 1.2; font-size: 1.5rem; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;kube-proxy&lt;/h3&gt;&lt;p&gt;- network proxy chạy trên mỗi node - triển khai một phần của Kubenetes Service concept&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Maintains network rules ở trên các node. Kiểm soát các kết nối bên trong và bên ngoài&amp;nbsp;&lt;/p&gt;&lt;p&gt;- Sử dụng operating system packet filtering layer nếu như có cái nào available. Nếu không thi nó forward traffic bởi chính nó&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-85">
+          <mxGeometry x="14" y="207" width="387" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-80" value="&lt;h3 id=&quot;kubelet&quot; style=&quot;box-sizing: border-box; margin-top: 2rem; margin-bottom: 1rem; font-weight: 500; line-height: 1.2; font-size: 1.5rem; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;container runtime&lt;/h3&gt;&lt;p&gt;- Phần mềm để chạy các container&amp;nbsp;&lt;/p&gt;&lt;p&gt;- K8s&amp;nbsp; sử dụng các container runtime nhuw là containerd, CRI-O, hoặc bất cứ các implementation của K8S CRI&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-85">
+          <mxGeometry x="14" y="391" width="387" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-86" value="Node" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1571" y="817" width="39" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-87" value="" style="swimlane;startSize=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1625" y="-84" width="558" height="1365" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-71" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 2rem; margin-bottom: 1rem; font-weight: 500; line-height: 1.2; font-size: 1.5rem; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; background-color: rgb(255, 255, 255);&quot; id=&quot;kube-apiserver&quot;&gt;kube-apiserver&lt;/h3&gt;&lt;p&gt;- exposes&amp;nbsp; kubernetes API&amp;nbsp;&lt;/p&gt;&lt;p&gt;- scale horizontall: chạy nhiều instances để cân bằng tải&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-87">
+          <mxGeometry x="29" y="48" width="402" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-73" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 2rem; margin-bottom: 1rem; font-weight: 500; line-height: 1.2; font-size: 1.5rem; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; background-color: rgb(255, 255, 255);&quot; id=&quot;kube-apiserver&quot;&gt;etcd&lt;/h3&gt;&lt;p&gt;- key-store kho lưu trữ cho toàn bộ kubernetes cluster&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-87">
+          <mxGeometry x="29" y="258" width="402" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-74" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 2rem; margin-bottom: 1rem; font-weight: 500; line-height: 1.2; font-size: 1.5rem; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; background-color: rgb(255, 255, 255);&quot; id=&quot;kube-scheduler&quot;&gt;kube-scheduler&lt;a style=&quot;box-sizing: border-box; color: rgb(51, 113, 227); text-decoration-line: none; background-color: transparent; visibility: initial;&quot; href=&quot;https://kubernetes.io/docs/concepts/overview/components/#kube-scheduler&quot; aria-hidden=&quot;true&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;- giám sát các Pods mới được tạo mà chưa được gán vào node nào và chọn một node để chạy&amp;nbsp;&lt;/p&gt;&lt;p&gt;- Các nhân tố ảnh hưởng:&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;individual and collective resource requirement: 1 hoặc nhiều yêu cầu về tài nguyên.&amp;nbsp;&lt;/li&gt;&lt;li&gt;hardware/software/policy constraints: các rằng buộc về phần cứng và phần mềm&amp;nbsp;&lt;/li&gt;&lt;li&gt;afinity và anit-afinity specifications: các yêu cầu về sự tương đồng và không tương đồng&lt;/li&gt;&lt;li&gt;data locality: dữ liệu cục bộ&amp;nbsp;&lt;/li&gt;&lt;li&gt;inter-workload interferences&amp;nbsp;&lt;/li&gt;&lt;li&gt;deadlines&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-87">
+          <mxGeometry x="29" y="459" width="427" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-76" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 2rem; margin-bottom: 1rem; font-weight: 500; line-height: 1.2; font-size: 1.5rem; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; background-color: rgb(255, 255, 255);&quot; id=&quot;kube-apiserver&quot;&gt;kube-controller-manager&lt;/h3&gt;&lt;p&gt;- Thành phần chạy controller&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Các loại controller:&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Node controller: thông báo và phản hồi khi nodes go down&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Job controller: giám sát việc tạo job, one-off task. Và tạo Prods để chạy các task đó để hoàn thành&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Endpoints controller: Chưa rõ&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Service Account &amp;amp; Token controllers: Tạo các account mặc định và các -&amp;nbsp; API access token để truy cập API cho namespace mới&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-87">
+          <mxGeometry x="29" y="781" width="402" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="MLqByzA7hM5OESaeHnUo-77" value="&lt;h3 style=&quot;box-sizing: border-box; margin-top: 2rem; margin-bottom: 1rem; font-weight: 500; line-height: 1.2; font-size: 1.5rem; color: rgb(34, 34, 34); font-family: &amp;quot;open sans&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;segoe ui&amp;quot;, Roboto, &amp;quot;helvetica neue&amp;quot;, Arial, sans-serif, &amp;quot;apple color emoji&amp;quot;, &amp;quot;segoe ui emoji&amp;quot;, &amp;quot;segoe ui symbol&amp;quot;; background-color: rgb(255, 255, 255);&quot; id=&quot;kube-apiserver&quot;&gt;kube-cloud-controller-manager&lt;/h3&gt;&lt;p&gt;- Thành phần được tích hợp với cloud-specific control logic - các cái logic điều khiển tương ứng với các cloud provider&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Link tới clould provider&#39; API, tách các thành phần tương tác với cloud ra riêng với các thành phần chỉ tương tác ở trong cluster&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Các cái controller sau đây thì có thể có các thành phần phụ thuộc vào cloud provider&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Node controller: để kiểm tra cloud provider để quyết định là node đã bị xóa sau khi nó không phản hồi&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Route controller: để setting up routes in underlying cloud infrastructure&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Service controller: tạo, cập nhật và xóa cloud provider load balancers&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="MLqByzA7hM5OESaeHnUo-87">
+          <mxGeometry x="29" y="1060" width="402" height="281" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
